@@ -2,10 +2,14 @@
   (:use [datomic.api :only [db q] :as d]))
 
 (def uri "datomic:mem://test")
+(declare conn)
+
 
 (defn create-db []
   (d/delete-database uri)
   (d/create-database uri)
+  
+  (def conn (d/connect uri))
 
   ;; add a name attribute
   (d/transact conn [{:db/id #db/id[:db.part/db]
@@ -25,8 +29,6 @@
   )
 
 (create-db)
-
-(def conn (d/connect uri))
 
 (d/transact conn [{:db/id #db/id[:db.part/db]
                    :db/ident :person/name
