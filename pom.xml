@@ -96,7 +96,7 @@
 		<dependency>
 			<groupId>com.datomic</groupId>
 			<artifactId>datomic-free</artifactId>
-			<version>0.8.3479</version>
+			<version>0.8.3538</version>
 		</dependency>
 	</dependencies>
 	<parent>
