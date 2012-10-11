@@ -91,12 +91,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.clojure</groupId>
-			<artifactId>clojure</artifactId>
-			<version>1.4.0</version>
-			<classifier>slim</classifier>
-		</dependency>
-		<dependency>
 			<groupId>com.datomic</groupId>
 			<artifactId>datomic-free</artifactId>
 			<version>0.8.3551</version>
