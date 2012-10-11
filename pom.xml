@@ -6,7 +6,6 @@
 	<name>Datomic Test</name>
 	<description>Test project for Datomic database</description>
 
-
 	<repositories>
 		<repository>
 			<id>clojars.org</id>
@@ -96,7 +95,7 @@
 		<dependency>
 			<groupId>com.datomic</groupId>
 			<artifactId>datomic-free</artifactId>
-			<version>0.8.3538</version>
+			<version>0.8.3551</version>
 		</dependency>
 	</dependencies>
 	<parent>
