@@ -4,8 +4,14 @@
 	<artifactId>datomic-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Datomic Test</name>
-	<description>Test project for Datomic database</description>
-
+	<description>Test project for Datomic database. Intended to be useful as working example code demonstrating different techniques.</description>
+	
+	<parent>
+		<groupId>net.mikera</groupId>
+		<artifactId>clojure-pom</artifactId>
+		<version>0.0.2</version>
+	</parent>
+	
 	<repositories>
 		<repository>
 			<id>clojars.org</id>
@@ -83,8 +89,6 @@
 		</testResources>
 	</build>
 
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.clojure</groupId>
@@ -98,9 +102,4 @@
 			<version>0.8.3551</version>
 		</dependency>
 	</dependencies>
-	<parent>
-		<groupId>net.mikera</groupId>
-		<artifactId>clojure-pom</artifactId>
-		<version>0.0.2</version>
-	</parent>
 </project>
